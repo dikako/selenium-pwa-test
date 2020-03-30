@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="2" total="5" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="188485" started-at="2020-03-30T10:55:03Z" finished-at="2020-03-30T10:58:11Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="188485" started-at="2020-03-30T10:55:03Z" finished-at="2020-03-30T10:58:11Z">
+      <class name="testcases.Mainclass">
+        <test-method status="PASS" signature="setup()[pri:0, instance:testcases.Mainclass@d2cc05a]" test-instance-name="" name="setup" is-config="true" duration-ms="8328" started-at="2020-03-30T17:55:03Z" finished-at="2020-03-30T17:55:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="test_title()[pri:0, instance:testcases.Mainclass@d2cc05a]" test-instance-name="" name="test_title" duration-ms="436" started-at="2020-03-30T17:55:11Z" finished-at="2020-03-30T17:55:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_title -->
+        <test-method status="PASS" signature="setDown()[pri:0, instance:testcases.Mainclass@d2cc05a]" test-instance-name="" name="setDown" is-config="true" duration-ms="1133" started-at="2020-03-30T17:55:11Z" finished-at="2020-03-30T17:55:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:testcases.Mainclass@d2cc05a]" test-instance-name="" name="setup" is-config="true" duration-ms="8077" started-at="2020-03-30T17:55:13Z" finished-at="2020-03-30T17:55:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="FAIL" signature="sp_login_email()[pri:1, instance:testcases.Mainclass@d2cc05a]" test-instance-name="" name="sp_login_email" duration-ms="46795" started-at="2020-03-30T17:55:21Z" finished-at="2020-03-30T17:56:07Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [https://dev.rctiplus.com/profile] but found [https://dev.rctiplus.com/login]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [https://dev.rctiplus.com/profile] but found [https://dev.rctiplus.com/login]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:190)
+	at org.testng.Assert.assertEquals(Assert.java:200)
+	at testcases.test.Account.validateLogout(Account.java:182)
+	at testcases.test.Account.sp_login_email(Account.java:49)
+	at testcases.Mainclass.sp_login_email(Mainclass.java:22)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sp_login_email -->
+        <test-method status="PASS" signature="setDown()[pri:0, instance:testcases.Mainclass@d2cc05a]" test-instance-name="" name="setDown" is-config="true" duration-ms="1204" started-at="2020-03-30T17:56:07Z" finished-at="2020-03-30T17:56:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:testcases.Mainclass@d2cc05a]" test-instance-name="" name="setup" is-config="true" duration-ms="8690" started-at="2020-03-30T17:56:09Z" finished-at="2020-03-30T17:56:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="FAIL" signature="sp_login_phone()[pri:2, instance:testcases.Mainclass@d2cc05a]" test-instance-name="" name="sp_login_phone" duration-ms="41825" started-at="2020-03-30T17:56:17Z" finished-at="2020-03-30T17:56:59Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [https://dev.rctiplus.com/profile] but found [https://dev.rctiplus.com/login]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [https://dev.rctiplus.com/profile] but found [https://dev.rctiplus.com/login]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:190)
+	at org.testng.Assert.assertEquals(Assert.java:200)
+	at testcases.test.Account.validateLogout(Account.java:182)
+	at testcases.test.Account.sp_login_phone(Account.java:73)
+	at testcases.Mainclass.sp_login_phone(Mainclass.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sp_login_phone -->
+        <test-method status="PASS" signature="setDown()[pri:0, instance:testcases.Mainclass@d2cc05a]" test-instance-name="" name="setDown" is-config="true" duration-ms="1139" started-at="2020-03-30T17:56:59Z" finished-at="2020-03-30T17:57:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:testcases.Mainclass@d2cc05a]" test-instance-name="" name="setup" is-config="true" duration-ms="6486" started-at="2020-03-30T17:57:00Z" finished-at="2020-03-30T17:57:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="sn_login_emailorphone_alert()[pri:3, instance:testcases.Mainclass@d2cc05a]" test-instance-name="" name="sn_login_emailorphone_alert" duration-ms="39261" started-at="2020-03-30T17:57:07Z" finished-at="2020-03-30T17:57:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sn_login_emailorphone_alert -->
+        <test-method status="PASS" signature="setDown()[pri:0, instance:testcases.Mainclass@d2cc05a]" test-instance-name="" name="setDown" is-config="true" duration-ms="924" started-at="2020-03-30T17:57:46Z" finished-at="2020-03-30T17:57:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:testcases.Mainclass@d2cc05a]" test-instance-name="" name="setup" is-config="true" duration-ms="6779" started-at="2020-03-30T17:57:47Z" finished-at="2020-03-30T17:57:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="sn_login_emailorphone_button()[pri:3, instance:testcases.Mainclass@d2cc05a]" test-instance-name="" name="sn_login_emailorphone_button" duration-ms="16405" started-at="2020-03-30T17:57:54Z" finished-at="2020-03-30T17:58:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sn_login_emailorphone_button -->
+        <test-method status="PASS" signature="setDown()[pri:0, instance:testcases.Mainclass@d2cc05a]" test-instance-name="" name="setDown" is-config="true" duration-ms="984" started-at="2020-03-30T17:58:10Z" finished-at="2020-03-30T17:58:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDown -->
+      </class> <!-- testcases.Mainclass -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
