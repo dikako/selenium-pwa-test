@@ -1,39 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" total="2" passed="1">
+<testng-results skipped="0" failed="2" total="2" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="104112" started-at="2020-05-27T11:43:56Z" finished-at="2020-05-27T11:45:40Z">
+  <suite name="Suite" duration-ms="133014" started-at="2020-05-27T13:01:32Z" finished-at="2020-05-27T13:03:45Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="104112" started-at="2020-05-27T11:43:56Z" finished-at="2020-05-27T11:45:40Z">
+    <test name="Test" duration-ms="133014" started-at="2020-05-27T13:01:32Z" finished-at="2020-05-27T13:03:45Z">
       <class name="test.Mainclass">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:test.Mainclass@91161c7]" test-instance-name="" name="setUp" is-config="true" duration-ms="8497" started-at="2020-05-27T18:43:56Z" finished-at="2020-05-27T18:44:05Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:test.Mainclass@91161c7]" test-instance-name="" name="setUp" is-config="true" duration-ms="8031" started-at="2020-05-27T20:01:32Z" finished-at="2020-05-27T20:01:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="edit_nicknameNull()[pri:7, instance:test.Mainclass@91161c7]" test-instance-name="" name="edit_nicknameNull" duration-ms="61861" started-at="2020-05-27T18:44:05Z" finished-at="2020-05-27T18:45:07Z">
+        <test-method status="FAIL" signature="edit_nicknameNull()[pri:7, instance:test.Mainclass@91161c7]" test-instance-name="" name="edit_nicknameNull" duration-ms="50721" started-at="2020-05-27T20:01:40Z" finished-at="2020-05-27T20:02:31Z">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//p[contains(text(),'Your Nickname Has Been Taken')]"}
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#form\-field"}
   (Session info: chrome=83.0.4103.61)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'MNCTVN05589', ip: '192.168.43.28', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\FRANSI~1.SET\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:53467}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 2f83da152d64a2666c0f5f4d2b7cf338
-*** Element info: {Using=xpath, value=//p[contains(text(),'Your Nickname Has Been Taken')]}]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\FRANSI~1.SET\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:57496}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 50f95c5c3d609ac550f6e9abc1655231
+*** Element info: {Using=id, value=form-field}]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//p[contains(text(),'Your Nickname Has Been Taken')]"}
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#form\-field"}
   (Session info: chrome=83.0.4103.61)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'MNCTVN05589', ip: '192.168.43.28', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\FRANSI~1.SET\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:53467}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 2f83da152d64a2666c0f5f4d2b7cf338
-*** Element info: {Using=xpath, value=//p[contains(text(),'Your Nickname Has Been Taken')]}
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\FRANSI~1.SET\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:57496}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 50f95c5c3d609ac550f6e9abc1655231
+*** Element info: {Using=id, value=form-field}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -45,10 +45,11 @@ Session ID: 2f83da152d64a2666c0f5f4d2b7cf338
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at test.testcases.Profile.nicknameNull(Profile.java:55)
+	at test.testcases.Profile.clearFormField(Profile.java:79)
+	at test.testcases.Profile.nicknameNull(Profile.java:53)
 	at test.Mainclass.edit_nicknameNull(Mainclass.java:254)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
@@ -80,23 +81,89 @@ Session ID: 2f83da152d64a2666c0f5f4d2b7cf338
           <reporter-output>
           </reporter-output>
         </test-method> <!-- edit_nicknameNull -->
-        <test-method status="PASS" signature="setDown()[pri:0, instance:test.Mainclass@91161c7]" test-instance-name="" name="setDown" is-config="true" duration-ms="1232" started-at="2020-05-27T18:45:07Z" finished-at="2020-05-27T18:45:08Z">
+        <test-method status="PASS" signature="setDown()[pri:0, instance:test.Mainclass@91161c7]" test-instance-name="" name="setDown" is-config="true" duration-ms="1402" started-at="2020-05-27T20:02:31Z" finished-at="2020-05-27T20:02:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:test.Mainclass@91161c7]" test-instance-name="" name="setUp" is-config="true" duration-ms="6460" started-at="2020-05-27T18:45:08Z" finished-at="2020-05-27T18:45:14Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:test.Mainclass@91161c7]" test-instance-name="" name="setUp" is-config="true" duration-ms="10922" started-at="2020-05-27T20:02:32Z" finished-at="2020-05-27T20:02:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="edit_nicknameTaken()[pri:7, instance:test.Mainclass@91161c7]" test-instance-name="" name="edit_nicknameTaken" duration-ms="24496" started-at="2020-05-27T18:45:14Z" finished-at="2020-05-27T18:45:39Z">
+        <test-method status="FAIL" signature="edit_nicknameTaken()[pri:7, instance:test.Mainclass@91161c7]" test-instance-name="" name="edit_nicknameTaken" duration-ms="60686" started-at="2020-05-27T20:02:43Z" finished-at="2020-05-27T20:03:44Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#form\-field"}
+  (Session info: chrome=83.0.4103.61)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MNCTVN05589', ip: '192.168.43.28', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\FRANSI~1.SET\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:57598}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 27da998b81243b793ba75ce01d98e0df
+*** Element info: {Using=id, value=form-field}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#form\-field"}
+  (Session info: chrome=83.0.4103.61)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MNCTVN05589', ip: '192.168.43.28', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\FRANSI~1.SET\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:57598}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 27da998b81243b793ba75ce01d98e0df
+*** Element info: {Using=id, value=form-field}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at test.testcases.Profile.clearFormField(Profile.java:79)
+	at test.testcases.Profile.nicknameTaken(Profile.java:70)
+	at test.Mainclass.edit_nicknameTaken(Mainclass.java:247)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- edit_nicknameTaken -->
-        <test-method status="PASS" signature="setDown()[pri:0, instance:test.Mainclass@91161c7]" test-instance-name="" name="setDown" is-config="true" duration-ms="1537" started-at="2020-05-27T18:45:39Z" finished-at="2020-05-27T18:45:40Z">
+        <test-method status="PASS" signature="setDown()[pri:0, instance:test.Mainclass@91161c7]" test-instance-name="" name="setDown" is-config="true" duration-ms="1227" started-at="2020-05-27T20:03:44Z" finished-at="2020-05-27T20:03:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setDown -->
       </class> <!-- test.Mainclass -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
