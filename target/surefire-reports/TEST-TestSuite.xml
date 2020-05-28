@@ -1,25 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TestSuite" time="94.322" tests="2" errors="0" skipped="0" failures="1">
+<testsuite name="TestSuite" time="53.574" tests="2" errors="0" skipped="0" failures="2">
   <properties>
     <property name="PROCESSOR_ARCHITECTURE" value="AMD64"/>
     <property name="file.encoding.pkg" value="sun.io"/>
     <property name="LOGONSERVER" value="\\MNCHDC03"/>
     <property name="ProgramData" value="C:\ProgramData"/>
     <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_221\jre"/>
+    <property name="pmt_subject" value="testingpwa"/>
     <property name="NODE_NAME" value="master"/>
     <property name="JENKINS_URL" value="http://localhost:8080/"/>
     <property name="ALLUSERSPROFILE" value="C:\ProgramData"/>
     <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_221\jre\lib\endorsed"/>
     <property name="PSModulePath" value="C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules"/>
+    <property name="pmt_messageNumber" value="31394"/>
     <property name="PTSMINSTALLPATH_X86" value="C:\Program Files (x86)\HP\HP ProtectTools Security Manager\Bin\"/>
     <property name="=::" value="::\"/>
     <property name="USERDOMAIN" value="MNCGROUP"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="pmt_mail.imaps.host" value="imap.gmail.com"/>
     <property name="CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files"/>
     <property name="java.version" value="1.8.0_221"/>
     <property name="JOB_NAME" value="Selenium-pwa-test"/>
     <property name="COMPUTERNAME" value="MNCTVN05589"/>
+    <property name="pmt_from" value="dikakoko04@gmail.com"/>
     <property name="ANDROID_HOME" value="C:\Users\fransiskus.setiawan\android-sdks"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="PUBLIC" value="C:\Users\Public"/>
@@ -29,50 +33,56 @@
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="windir" value="C:\WINDOWS"/>
+    <property name="pmt_mail.debug" value="false"/>
     <property name="PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 142 Stepping 11, GenuineIntel"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="LOCALAPPDATA" value="C:\Users\fransiskus.setiawan\AppData\Local"/>
-    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/Selenium-pwa-test/2/display/redirect?page=changes"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/Selenium-pwa-test/7/display/redirect?page=changes"/>
     <property name="user.timezone" value="Asia/Bangkok"/>
+    <property name="pmt_username" value="dikakoko04@gmail.com"/>
     <property name="user.script" value=""/>
     <property name="path.separator" value=";"/>
     <property name="NUMBER_OF_PROCESSORS" value="8"/>
-    <property name="BUILD_TAG" value="jenkins-Selenium-pwa-test-2"/>
+    <property name="BUILD_TAG" value="jenkins-Selenium-pwa-test-7"/>
     <property name="file.encoding" value="UTF-8"/>
-    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main C:\Program Files\apache-maven-3.6.2 C:\Users\fransiskus.setiawan\.jenkins\war\WEB-INF\lib\remoting-3.33.jar C:\Users\fransiskus.setiawan\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar C:\Users\fransiskus.setiawan\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar 58804"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main C:\Program Files\apache-maven-3.6.2 C:\Users\fransiskus.setiawan\.jenkins\war\WEB-INF\lib\remoting-3.33.jar C:\Users\fransiskus.setiawan\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar C:\Users\fransiskus.setiawan\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar 54487"/>
     <property name="HUDSON_URL" value="http://localhost:8080/"/>
     <property name="JENKINS_SERVER_COOKIE" value="6e5e4db71d92e154"/>
     <property name="=D:" value="D:\Library\Jenkins"/>
-    <property name="EXECUTOR_NUMBER" value="1"/>
+    <property name="EXECUTOR_NUMBER" value="0"/>
     <property name="Path" value="C:\Program Files\Java\jdk1.8.0_221/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Git\cmd;C:\Program Files\apache-maven-3.6.2\bin;C:\Program Files\Java\jdk1.8.0_221\bin;C:\Program Files\nodejs\;C:\Users\fransiskus.setiawan\android-sdks\platform-tools;C:\Go\bin;C:\xampp\php;C:\ProgramData\ComposerSetup\bin;C:\Program Files (x86)\Yarn\bin\;C:\ProgramData\chocolatey\bin;C:\Program Files\k6\;C:\Users\fransiskus.setiawan\AppData\Local\Programs\Python\Python38\Scripts\;C:\Users\fransiskus.setiawan\AppData\Local\Programs\Python\Python38\;C:\Users\fransiskus.setiawan\AppData\Local\Microsoft\WindowsApps;C:\Users\fransiskus.setiawan\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\fransiskus.setiawan\AppData\Roaming\npm;C:\Program Files\JetBrains\IntelliJ IDEA 2019.2\bin;;C:\Users\fransiskus.setiawan\go\bin;C:\Users\fransiskus.setiawan\AppData\Roaming\Composer\vendor\bin;C:\Users\fransiskus.setiawan\AppData\Local\Yarn\bin"/>
-    <property name="GIT_COMMIT" value="ca233ea0053f47f413e2bf45ce1e5df19cd91771"/>
+    <property name="GIT_COMMIT" value="d7f3cd268ecfeb055639d03bf51a7ed88d0e075a"/>
     <property name="java.io.tmpdir" value="C:\Users\FRANSI~1.SET\AppData\Local\Temp\"/>
     <property name="APPDATA" value="C:\Users\fransiskus.setiawan\AppData\Roaming"/>
     <property name="user.language" value="en"/>
     <property name="line.separator" value="&#10;"/>
     <property name="GOPATH" value="C:\Users\fransiskus.setiawan\go"/>
-    <property name="BUILD_URL" value="http://localhost:8080/job/Selenium-pwa-test/2/"/>
+    <property name="BUILD_URL" value="http://localhost:8080/job/Selenium-pwa-test/7/"/>
     <property name="M2_HOME" value="C:\Program Files\apache-maven-3.6.2"/>
     <property name="java.vm.info" value="mixed mode"/>
     <property name="DriverData" value="C:\Windows\System32\Drivers\DriverData"/>
     <property name="sun.desktop" value="windows"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="BUILD_DISPLAY_NAME" value="#2"/>
+    <property name="BUILD_DISPLAY_NAME" value="#7"/>
     <property name="OS" value="Windows_NT"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="pmt_folder" value="INBOX"/>
+    <property name="pmt_replyTo" value="dikakoko04@gmail.com"/>
     <property name="HUDSON_SERVER_COOKIE" value="6e5e4db71d92e154"/>
+    <property name="pmt_receivedXMinutesAgo" value="1440"/>
     <property name="MAVEN_HOME" value="C:\Program Files\apache-maven-3.6.2"/>
     <property name="SESSIONNAME" value="Console"/>
     <property name="PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC"/>
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
     <property name="maven3.interceptor.common" value="C:\Users\fransiskus.setiawan\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar"/>
     <property name="CLASSPATH" value=""/>
+    <property name="pmt_mail.debug.auth" value="false"/>
     <property name="HOMEPATH" value="\Users\fransiskus.setiawan"/>
     <property name="os.name" value="Windows 10"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="PTSMINSTALLPATH" value="C:\Program Files\HP\HP ProtectTools Security Manager\Bin\"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
-    <property name="BUILD_NUMBER" value="2"/>
+    <property name="BUILD_NUMBER" value="7"/>
     <property name="BRS" value="C:\Program Files\HP\Sure Click\servers"/>
     <property name="maven3.interceptor" value="C:\Users\fransiskus.setiawan\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar"/>
     <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_221\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\apache-maven-3.6.2/bin;C:\Program Files\Java\jdk1.8.0_221/bin;C:\Program Files\Java\jdk1.8.0_221/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Git\cmd;C:\Program Files\apache-maven-3.6.2\bin;C:\Program Files\Java\jdk1.8.0_221\bin;C:\Program Files\nodejs\;C:\Users\fransiskus.setiawan\android-sdks\platform-tools;C:\Go\bin;C:\xampp\php;C:\ProgramData\ComposerSetup\bin;C:\Program Files (x86)\Yarn\bin\;C:\ProgramData\chocolatey\bin;C:\Program Files\k6\;C:\Users\fransiskus.setiawan\AppData\Local\Programs\Python\Python38\Scripts\;C:\Users\fransiskus.setiawan\AppData\Local\Programs\Python\Python38\;C:\Users\fransiskus.setiawan\AppData\Local\Microsoft\WindowsApps;C:\Users\fransiskus.setiawan\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\fransiskus.setiawan\AppData\Roaming\npm;C:\Program Files\JetBrains\IntelliJ IDEA 2019.2\bin;;C:\Users\fransiskus.setiawan\go\bin;C:\Users\fransiskus.setiawan\AppData\Roaming\Composer\vendor\bin;C:\Users\fransiskus.setiawan\AppData\Local\Yarn\bin;."/>
@@ -80,15 +90,19 @@
     <property name="POM_GROUPID" value="pwa-test"/>
     <property name="POM_ARTIFACTID" value="pwa-test"/>
     <property name="java.class.version" value="52.0"/>
+    <property name="pmt_attachments" value="AUTO"/>
     <property name="JOB_URL" value="http://localhost:8080/job/Selenium-pwa-test/"/>
     <property name="BRB" value="C:\Program Files\HP\Sure Click\bin"/>
     <property name="platformcode" value="AN"/>
-    <property name="GIT_PREVIOUS_COMMIT" value="6791479b766d4d14aecc9a89bdc45026b1e8508f"/>
+    <property name="GIT_PREVIOUS_COMMIT" value="d7f3cd268ecfeb055639d03bf51a7ed88d0e075a"/>
+    <property name="pmt_receivedDate" value="2020-05-28T12:47Z"/>
+    <property name="pmt_contentType" value="multipart/ALTERNATIVE; boundary=00000000000066caee05a6aedd0f"/>
     <property name="OneDrive" value="C:\Users\fransiskus.setiawan\OneDrive"/>
     <property name="GIT_BRANCH" value="origin/master"/>
-    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/Selenium-pwa-test/2/display/redirect"/>
+    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/Selenium-pwa-test/7/display/redirect"/>
     <property name="JENKINS_HOME" value="C:\Users\fransiskus.setiawan\.jenkins"/>
-    <property name="BUILD_ID" value="2"/>
+    <property name="pmt_retryEmailLink" value="&lt;a href=&quot;mailto:dikakoko04@gmail.com?subject=testingpwa&amp;body=%0D%0A&lt;div dir=&amp;quot;ltr&amp;quot;&gt;&lt;br&gt;&lt;/div&gt;%0D%0A%0D%0A%0D%0A&quot;&gt;Click to Retry Job&lt;/a&gt;"/>
+    <property name="BUILD_ID" value="7"/>
     <property name="TEMP" value="C:\Users\FRANSI~1.SET\AppData\Local\Temp"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_221\jre\bin"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -101,7 +115,9 @@
     <property name="ProgramFiles(x86)" value="C:\Program Files (x86)"/>
     <property name="PATH+MAVEN" value="C:\Program Files\apache-maven-3.6.2/bin"/>
     <property name="IntelliJ IDEA" value="C:\Program Files\JetBrains\IntelliJ IDEA 2019.2\bin;"/>
+    <property name="pmt_subjectContains" value="testingpwa"/>
     <property name="USERDOMAIN_ROAMINGPROFILE" value="MNCGROUP"/>
+    <property name="pmt_content" value="&#10;&lt;div dir=&quot;ltr&quot;&gt;&lt;br&gt;&lt;/div&gt;&#10;&#10;&#10;"/>
     <property name="PROMPT" value="$P$G"/>
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="JAVA_HOME" value="C:\Program Files\Java\jdk1.8.0_221"/>
@@ -114,10 +130,13 @@
     <property name="os.version" value="10.0"/>
     <property name="user.home" value="C:\Users\fransiskus.setiawan"/>
     <property name="USERNAME" value="fransiskus.setiawan"/>
+    <property name="pmt_host" value="imap.gmail.com"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="PROCESSOR_LEVEL" value="6"/>
     <property name="USERDNSDOMAIN" value="MNCGROUP.COM"/>
+    <property name="pmt_flags" value=""/>
     <property name="CommonProgramW6432" value="C:\Program Files\Common Files"/>
+    <property name="pmt_recipients" value="dikakoko04@gmail.com"/>
     <property name="user.dir" value="C:\Users\fransiskus.setiawan\mytest\pwa-test"/>
     <property name="maven.conf" value="C:\Program Files\apache-maven-3.6.2\conf"/>
     <property name="ProgramW6432" value="C:\Program Files"/>
@@ -130,41 +149,44 @@
     <property name="JAVA_TOOL_OPTIONS" value="-Dfile.encoding=UTF-8"/>
     <property name="os.arch" value="amd64"/>
     <property name="RegionCode" value="APJ"/>
-    <property name="WORKSPACE" value="C:\Users\fransiskus.setiawan\.jenkins\workspace\Selenium-pwa-test"/>
     <property name="ComSpec" value="C:\WINDOWS\system32\cmd.exe"/>
+    <property name="WORKSPACE" value="C:\Users\fransiskus.setiawan\.jenkins\workspace\Selenium-pwa-test"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="pmt_headers" value="MIME-Version=1.0, Date=Thu, 28 May 2020 12:47:31 +0700, Message-ID=&lt;CALyWj6jwco+yXAt+mn38tN-_u4KLqY3BrCpEr+TtVXbw1+wp8A@mail.gmail.com&gt;, Subject=testingpwa, From=Fransiskus Andika Setiawan &lt;dikakoko04@gmail.com&gt;, To=Fransiskus Andika Setiawan &lt;dikakoko04@gmail.com&gt;, Content-Type=multipart/alternative; boundary=&quot;00000000000066caee05a6aedd0f&quot;"/>
+    <property name="FPS_BROWSER_APP_PROFILE_STRING" value="Internet Explorer"/>
     <property name="LANG" value="en_US.UTF-8"/>
     <property name="SystemRoot" value="C:\WINDOWS"/>
     <property name="CommonProgramFiles" value="C:\Program Files\Common Files"/>
+    <property name="FPS_BROWSER_USER_PROFILE_STRING" value="Default"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="file.separator" value="\"/>
-    <property name="ChocolateyInstall" value="C:\ProgramData\chocolatey"/>
+    <property name="pmt_storeName" value="imaps"/>
     <property name="java.runtime.version" value="1.8.0_221-b11"/>
-    <property name="ProgramFiles" value="C:\Program Files"/>
+    <property name="ChocolateyInstall" value="C:\ProgramData\chocolatey"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_221\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_221\jre\classes"/>
+    <property name="ProgramFiles" value="C:\Program Files"/>
+    <property name="pmt_mail.imaps.port" value="993"/>
     <property name="OnlineServices" value="Online Services"/>
     <property name="PATH+JDK" value="C:\Program Files\Java\jdk1.8.0_221/bin"/>
     <property name="user.country" value="ID"/>
-    <property name="=ExitCode" value="00000001"/>
     <property name="POM_PACKAGING" value="jar"/>
     <property name="maven.home" value="C:\Program Files\apache-maven-3.6.2"/>
     <property name="JOB_BASE_NAME" value="Selenium-pwa-test"/>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="POM_DISPLAYNAME" value="pwa-test"/>
     <property name="java.specification.version" value="1.8"/>
+    <property name="pmt_sentDate" value="2020-05-28T12:47Z"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="GIT_URL" value="https://github.com/dikako/selenium-pwa-test.git"/>
   </properties>
-  <testcase name="(test.Mainclass)" classname="test.Mainclass" time="60.964">
-    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//p[contains(text(),&apos;Your Nickname Has Been Taken&apos;)]&quot;}&#10;  (Session info: chrome=83.0.4103.61)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;MNCTVN05589&apos;, ip: &apos;192.168.43.28&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_221&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\FRANSI~1.SET\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:58828}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 0809bc9e0f18a82464ab315005b42b33&#10;*** Element info: {Using=xpath, value=//p[contains(text(),&apos;Your Nickname Has Been Taken&apos;)]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//p[contains(text(),'Your Nickname Has Been Taken')]"}
-  (Session info: chrome=83.0.4103.61)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+  <testcase name="(test.Mainclass)" classname="test.Mainclass" time="21.639">
+    <failure message="element click intercepted: Element &lt;div id=&quot;action-profile&quot;&gt;...&lt;/div&gt; is not clickable at point (180, 93). Other element would receive the click: &lt;div class=&quot;default-loader loader-fade&quot;&gt;...&lt;/div&gt;&#10;  (Session info: headless chrome=83.0.4103.61)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;MNCTVN05589&apos;, ip: &apos;192.168.43.28&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_221&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\FRANSI~1.SET\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:54506}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 993a157355d85caafee7120eb8a5cbac" type="org.openqa.selenium.ElementClickInterceptedException"><![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <div id="action-profile">...</div> is not clickable at point (180, 93). Other element would receive the click: <div class="default-loader loader-fade">...</div>
+  (Session info: headless chrome=83.0.4103.61)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'MNCTVN05589', ip: '192.168.43.28', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\FRANSI~1.SET\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:58828}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 0809bc9e0f18a82464ab315005b42b33
-*** Element info: {Using=xpath, value=//p[contains(text(),'Your Nickname Has Been Taken')]}
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\FRANSI~1.SET\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:54506}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 993a157355d85caafee7120eb8a5cbac
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -175,12 +197,41 @@ Session ID: 0809bc9e0f18a82464ab315005b42b33
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at test.testcases.Profile.nicknameNull(Profile.java:55)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at test.testcases.Profile.gotoProfile(Profile.java:86)
+	at test.testcases.Profile.nicknameNull(Profile.java:50)
 	at test.Mainclass.edit_nicknameNull(Mainclass.java:254)
+]]></failure>
+    <system-out><![CDATA[Waiting for element visibility
+Username: rt@mailinator.com
+Waiting for element visibility
+Password: dikakoko
+Waiting for element visibility
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+May 28, 2020 12:48:39 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 1290
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+May 28, 2020 12:48:44 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="(test.Mainclass)" classname="test.Mainclass" time="31.935">
+    <failure message="expected [Your Nickname Has Been Taken] but found []" type="java.lang.AssertionError">java.lang.AssertionError: expected [Your Nickname Has Been Taken] but found []
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:190)
+	at org.testng.Assert.assertEquals(Assert.java:200)
+	at test.testcases.Profile.nicknameTaken(Profile.java:74)
+	at test.Mainclass.edit_nicknameTaken(Mainclass.java:247)
 </failure>
     <system-out><![CDATA[Waiting for element visibility
 Username: rt@mailinator.com
@@ -190,18 +241,14 @@ Waiting for element visibility
 Waiting for element visibility
 Waiting for element visibility
 ]]></system-out>
-    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
-SLF4J: Defaulting to no-operation (NOP) logger implementation
-SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-May 27, 2020 8:24:39 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+    <system-err><![CDATA[May 28, 2020 12:49:09 PM org.openqa.selenium.remote.DesiredCapabilities chrome
 INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
-Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 32425
+Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 19752
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-May 27, 2020 8:24:44 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+May 28, 2020 12:49:13 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="(test.Mainclass)" classname="test.Mainclass" time="33.358"/>
 </testsuite>

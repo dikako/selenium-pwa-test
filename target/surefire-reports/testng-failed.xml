@@ -11,6 +11,7 @@
       <class name="test.Mainclass">
         <methods>
           <include name="setUp"/>
+          <include name="edit_nicknameTaken"/>
           <include name="edit_nicknameNull"/>
           <include name="setDown"/>
         </methods>
