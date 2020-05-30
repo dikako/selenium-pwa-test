@@ -2,44 +2,44 @@
 <testng-results skipped="0" failed="2" total="14" passed="12">
   <reporter-output>
   </reporter-output>
-  <suite name="PWA TEST" duration-ms="295849" started-at="2020-05-30T15:08:08Z" finished-at="2020-05-30T15:13:04Z">
+  <suite name="PWA TEST" duration-ms="269074" started-at="2020-05-30T15:28:23Z" finished-at="2020-05-30T15:32:52Z">
     <groups>
     </groups>
-    <test name="Test Title" duration-ms="13794" started-at="2020-05-30T15:08:08Z" finished-at="2020-05-30T15:08:22Z">
+    <test name="Test Title" duration-ms="13016" started-at="2020-05-30T15:28:23Z" finished-at="2020-05-30T15:28:36Z">
       <class name="test.TEST_Title">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:test.TEST_Title@6442b0a6]" test-instance-name="" name="setUp" is-config="true" duration-ms="11044" started-at="2020-05-30T22:08:08Z" finished-at="2020-05-30T22:08:19Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:test.TEST_Title@6442b0a6]" test-instance-name="" name="setUp" is-config="true" duration-ms="10848" started-at="2020-05-30T22:28:23Z" finished-at="2020-05-30T22:28:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="title()[pri:0, instance:test.TEST_Title@6442b0a6]" test-instance-name="" name="title" duration-ms="1801" started-at="2020-05-30T22:08:19Z" finished-at="2020-05-30T22:08:21Z">
+        <test-method status="PASS" signature="title()[pri:0, instance:test.TEST_Title@6442b0a6]" test-instance-name="" name="title" duration-ms="1252" started-at="2020-05-30T22:28:34Z" finished-at="2020-05-30T22:28:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- title -->
-        <test-method status="PASS" signature="setDown()[pri:0, instance:test.TEST_Title@6442b0a6]" test-instance-name="" name="setDown" is-config="true" duration-ms="936" started-at="2020-05-30T22:08:21Z" finished-at="2020-05-30T22:08:22Z">
+        <test-method status="PASS" signature="setDown()[pri:0, instance:test.TEST_Title@6442b0a6]" test-instance-name="" name="setDown" is-config="true" duration-ms="904" started-at="2020-05-30T22:28:35Z" finished-at="2020-05-30T22:28:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setDown -->
       </class> <!-- test.TEST_Title -->
     </test> <!-- Test Title -->
-    <test name="Test Homepage" duration-ms="282041" started-at="2020-05-30T15:08:22Z" finished-at="2020-05-30T15:13:04Z">
+    <test name="Test Homepage" duration-ms="256044" started-at="2020-05-30T15:28:36Z" finished-at="2020-05-30T15:32:52Z">
       <class name="test.TEST_Homepage">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:test.TEST_Homepage@38082d64]" test-instance-name="" name="setUp" is-config="true" duration-ms="10243" started-at="2020-05-30T22:08:22Z" finished-at="2020-05-30T22:08:32Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:test.TEST_Homepage@38082d64]" test-instance-name="" name="setUp" is-config="true" duration-ms="7920" started-at="2020-05-30T22:28:36Z" finished-at="2020-05-30T22:28:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="home_account()[pri:6, instance:test.TEST_Homepage@38082d64]" test-instance-name="" name="home_account" duration-ms="1179" started-at="2020-05-30T22:08:32Z" finished-at="2020-05-30T22:08:34Z">
+        <test-method status="PASS" signature="home_account()[pri:6, instance:test.TEST_Homepage@38082d64]" test-instance-name="" name="home_account" duration-ms="1749" started-at="2020-05-30T22:28:44Z" finished-at="2020-05-30T22:28:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- home_account -->
-        <test-method status="PASS" signature="setDown()[pri:0, instance:test.TEST_Homepage@38082d64]" test-instance-name="" name="setDown" is-config="true" duration-ms="1008" started-at="2020-05-30T22:08:34Z" finished-at="2020-05-30T22:08:35Z">
+        <test-method status="PASS" signature="setDown()[pri:0, instance:test.TEST_Homepage@38082d64]" test-instance-name="" name="setDown" is-config="true" duration-ms="826" started-at="2020-05-30T22:28:45Z" finished-at="2020-05-30T22:28:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:test.TEST_Homepage@38082d64]" test-instance-name="" name="setUp" is-config="true" duration-ms="8714" started-at="2020-05-30T22:08:35Z" finished-at="2020-05-30T22:08:43Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:test.TEST_Homepage@38082d64]" test-instance-name="" name="setUp" is-config="true" duration-ms="10045" started-at="2020-05-30T22:28:46Z" finished-at="2020-05-30T22:28:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="home_adsBanner()[pri:6, instance:test.TEST_Homepage@38082d64]" test-instance-name="" name="home_adsBanner" duration-ms="31176" started-at="2020-05-30T22:08:43Z" finished-at="2020-05-30T22:09:14Z">
+        <test-method status="FAIL" signature="home_adsBanner()[pri:6, instance:test.TEST_Homepage@38082d64]" test-instance-name="" name="home_adsBanner" duration-ms="31472" started-at="2020-05-30T22:28:56Z" finished-at="2020-05-30T22:29:28Z">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#google_image_div"}
@@ -48,8 +48,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'MNCTVN05589', ip: '192.168.43.28', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\FRANSI~1.SET\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:57564}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: c25f890ab1c93df4677f5450a57f3c44
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\FRANSI~1.SET\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:59262}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: d89a50900188f9864807fc2bd5b132b2
 *** Element info: {Using=id, value=google_image_div}]]>
             </message>
             <full-stacktrace>
@@ -59,8 +59,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'MNCTVN05589', ip: '192.168.43.28', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\FRANSI~1.SET\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:57564}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: c25f890ab1c93df4677f5450a57f3c44
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\FRANSI~1.SET\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:59262}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: d89a50900188f9864807fc2bd5b132b2
 *** Element info: {Using=id, value=google_image_div}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -104,111 +104,111 @@ Session ID: c25f890ab1c93df4677f5450a57f3c44
           <reporter-output>
           </reporter-output>
         </test-method> <!-- home_adsBanner -->
-        <test-method status="PASS" signature="setDown()[pri:0, instance:test.TEST_Homepage@38082d64]" test-instance-name="" name="setDown" is-config="true" duration-ms="1182" started-at="2020-05-30T22:09:14Z" finished-at="2020-05-30T22:09:16Z">
+        <test-method status="PASS" signature="setDown()[pri:0, instance:test.TEST_Homepage@38082d64]" test-instance-name="" name="setDown" is-config="true" duration-ms="1206" started-at="2020-05-30T22:29:28Z" finished-at="2020-05-30T22:29:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:test.TEST_Homepage@38082d64]" test-instance-name="" name="setUp" is-config="true" duration-ms="8771" started-at="2020-05-30T22:09:16Z" finished-at="2020-05-30T22:09:24Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:test.TEST_Homepage@38082d64]" test-instance-name="" name="setUp" is-config="true" duration-ms="8171" started-at="2020-05-30T22:29:29Z" finished-at="2020-05-30T22:29:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="home_countContentTitle()[pri:6, instance:test.TEST_Homepage@38082d64]" test-instance-name="" name="home_countContentTitle" duration-ms="10307" started-at="2020-05-30T22:09:24Z" finished-at="2020-05-30T22:09:35Z">
+        <test-method status="PASS" signature="home_countContentTitle()[pri:6, instance:test.TEST_Homepage@38082d64]" test-instance-name="" name="home_countContentTitle" duration-ms="2687" started-at="2020-05-30T22:29:37Z" finished-at="2020-05-30T22:29:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- home_countContentTitle -->
-        <test-method status="PASS" signature="setDown()[pri:0, instance:test.TEST_Homepage@38082d64]" test-instance-name="" name="setDown" is-config="true" duration-ms="1068" started-at="2020-05-30T22:09:35Z" finished-at="2020-05-30T22:09:36Z">
+        <test-method status="PASS" signature="setDown()[pri:0, instance:test.TEST_Homepage@38082d64]" test-instance-name="" name="setDown" is-config="true" duration-ms="894" started-at="2020-05-30T22:29:40Z" finished-at="2020-05-30T22:29:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:test.TEST_Homepage@38082d64]" test-instance-name="" name="setUp" is-config="true" duration-ms="8771" started-at="2020-05-30T22:09:36Z" finished-at="2020-05-30T22:09:45Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:test.TEST_Homepage@38082d64]" test-instance-name="" name="setUp" is-config="true" duration-ms="8122" started-at="2020-05-30T22:29:41Z" finished-at="2020-05-30T22:29:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="home_countImg()[pri:6, instance:test.TEST_Homepage@38082d64]" test-instance-name="" name="home_countImg" duration-ms="30861" started-at="2020-05-30T22:09:45Z" finished-at="2020-05-30T22:10:15Z">
+        <test-method status="PASS" signature="home_countImg()[pri:6, instance:test.TEST_Homepage@38082d64]" test-instance-name="" name="home_countImg" duration-ms="31035" started-at="2020-05-30T22:29:49Z" finished-at="2020-05-30T22:30:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- home_countImg -->
-        <test-method status="PASS" signature="setDown()[pri:0, instance:test.TEST_Homepage@38082d64]" test-instance-name="" name="setDown" is-config="true" duration-ms="1147" started-at="2020-05-30T22:10:15Z" finished-at="2020-05-30T22:10:17Z">
+        <test-method status="PASS" signature="setDown()[pri:0, instance:test.TEST_Homepage@38082d64]" test-instance-name="" name="setDown" is-config="true" duration-ms="1119" started-at="2020-05-30T22:30:20Z" finished-at="2020-05-30T22:30:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:test.TEST_Homepage@38082d64]" test-instance-name="" name="setUp" is-config="true" duration-ms="8856" started-at="2020-05-30T22:10:17Z" finished-at="2020-05-30T22:10:25Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:test.TEST_Homepage@38082d64]" test-instance-name="" name="setUp" is-config="true" duration-ms="9105" started-at="2020-05-30T22:30:21Z" finished-at="2020-05-30T22:30:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="home_countMenuBawah()[pri:6, instance:test.TEST_Homepage@38082d64]" test-instance-name="" name="home_countMenuBawah" duration-ms="1226" started-at="2020-05-30T22:10:25Z" finished-at="2020-05-30T22:10:27Z">
+        <test-method status="PASS" signature="home_countMenuBawah()[pri:6, instance:test.TEST_Homepage@38082d64]" test-instance-name="" name="home_countMenuBawah" duration-ms="2311" started-at="2020-05-30T22:30:30Z" finished-at="2020-05-30T22:30:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- home_countMenuBawah -->
-        <test-method status="PASS" signature="setDown()[pri:0, instance:test.TEST_Homepage@38082d64]" test-instance-name="" name="setDown" is-config="true" duration-ms="901" started-at="2020-05-30T22:10:27Z" finished-at="2020-05-30T22:10:28Z">
+        <test-method status="PASS" signature="setDown()[pri:0, instance:test.TEST_Homepage@38082d64]" test-instance-name="" name="setDown" is-config="true" duration-ms="723" started-at="2020-05-30T22:30:32Z" finished-at="2020-05-30T22:30:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:test.TEST_Homepage@38082d64]" test-instance-name="" name="setUp" is-config="true" duration-ms="8104" started-at="2020-05-30T22:10:28Z" finished-at="2020-05-30T22:10:36Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:test.TEST_Homepage@38082d64]" test-instance-name="" name="setUp" is-config="true" duration-ms="7498" started-at="2020-05-30T22:30:33Z" finished-at="2020-05-30T22:30:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="home_countMenuTengah()[pri:6, instance:test.TEST_Homepage@38082d64]" test-instance-name="" name="home_countMenuTengah" duration-ms="10761" started-at="2020-05-30T22:10:36Z" finished-at="2020-05-30T22:10:46Z">
+        <test-method status="PASS" signature="home_countMenuTengah()[pri:6, instance:test.TEST_Homepage@38082d64]" test-instance-name="" name="home_countMenuTengah" duration-ms="4042" started-at="2020-05-30T22:30:41Z" finished-at="2020-05-30T22:30:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- home_countMenuTengah -->
-        <test-method status="PASS" signature="setDown()[pri:0, instance:test.TEST_Homepage@38082d64]" test-instance-name="" name="setDown" is-config="true" duration-ms="1340" started-at="2020-05-30T22:10:46Z" finished-at="2020-05-30T22:10:48Z">
+        <test-method status="PASS" signature="setDown()[pri:0, instance:test.TEST_Homepage@38082d64]" test-instance-name="" name="setDown" is-config="true" duration-ms="819" started-at="2020-05-30T22:30:45Z" finished-at="2020-05-30T22:30:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:test.TEST_Homepage@38082d64]" test-instance-name="" name="setUp" is-config="true" duration-ms="8800" started-at="2020-05-30T22:10:48Z" finished-at="2020-05-30T22:10:57Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:test.TEST_Homepage@38082d64]" test-instance-name="" name="setUp" is-config="true" duration-ms="8183" started-at="2020-05-30T22:30:45Z" finished-at="2020-05-30T22:30:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="home_exclusive()[pri:6, instance:test.TEST_Homepage@38082d64]" test-instance-name="" name="home_exclusive" duration-ms="3641" started-at="2020-05-30T22:10:57Z" finished-at="2020-05-30T22:11:00Z">
+        <test-method status="PASS" signature="home_exclusive()[pri:6, instance:test.TEST_Homepage@38082d64]" test-instance-name="" name="home_exclusive" duration-ms="10311" started-at="2020-05-30T22:30:54Z" finished-at="2020-05-30T22:31:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- home_exclusive -->
-        <test-method status="PASS" signature="setDown()[pri:0, instance:test.TEST_Homepage@38082d64]" test-instance-name="" name="setDown" is-config="true" duration-ms="772" started-at="2020-05-30T22:11:00Z" finished-at="2020-05-30T22:11:01Z">
+        <test-method status="PASS" signature="setDown()[pri:0, instance:test.TEST_Homepage@38082d64]" test-instance-name="" name="setDown" is-config="true" duration-ms="1049" started-at="2020-05-30T22:31:04Z" finished-at="2020-05-30T22:31:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:test.TEST_Homepage@38082d64]" test-instance-name="" name="setUp" is-config="true" duration-ms="7784" started-at="2020-05-30T22:11:01Z" finished-at="2020-05-30T22:11:09Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:test.TEST_Homepage@38082d64]" test-instance-name="" name="setUp" is-config="true" duration-ms="8558" started-at="2020-05-30T22:31:05Z" finished-at="2020-05-30T22:31:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="home_home()[pri:6, instance:test.TEST_Homepage@38082d64]" test-instance-name="" name="home_home" duration-ms="1842" started-at="2020-05-30T22:11:09Z" finished-at="2020-05-30T22:11:11Z">
+        <test-method status="PASS" signature="home_home()[pri:6, instance:test.TEST_Homepage@38082d64]" test-instance-name="" name="home_home" duration-ms="1952" started-at="2020-05-30T22:31:14Z" finished-at="2020-05-30T22:31:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- home_home -->
-        <test-method status="PASS" signature="setDown()[pri:0, instance:test.TEST_Homepage@38082d64]" test-instance-name="" name="setDown" is-config="true" duration-ms="892" started-at="2020-05-30T22:11:11Z" finished-at="2020-05-30T22:11:11Z">
+        <test-method status="PASS" signature="setDown()[pri:0, instance:test.TEST_Homepage@38082d64]" test-instance-name="" name="setDown" is-config="true" duration-ms="790" started-at="2020-05-30T22:31:16Z" finished-at="2020-05-30T22:31:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:test.TEST_Homepage@38082d64]" test-instance-name="" name="setUp" is-config="true" duration-ms="9003" started-at="2020-05-30T22:11:11Z" finished-at="2020-05-30T22:11:20Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:test.TEST_Homepage@38082d64]" test-instance-name="" name="setUp" is-config="true" duration-ms="9583" started-at="2020-05-30T22:31:16Z" finished-at="2020-05-30T22:31:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="home_library()[pri:6, instance:test.TEST_Homepage@38082d64]" test-instance-name="" name="home_library" duration-ms="1170" started-at="2020-05-30T22:11:20Z" finished-at="2020-05-30T22:11:22Z">
+        <test-method status="PASS" signature="home_library()[pri:6, instance:test.TEST_Homepage@38082d64]" test-instance-name="" name="home_library" duration-ms="1583" started-at="2020-05-30T22:31:26Z" finished-at="2020-05-30T22:31:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- home_library -->
-        <test-method status="PASS" signature="setDown()[pri:0, instance:test.TEST_Homepage@38082d64]" test-instance-name="" name="setDown" is-config="true" duration-ms="915" started-at="2020-05-30T22:11:22Z" finished-at="2020-05-30T22:11:23Z">
+        <test-method status="PASS" signature="setDown()[pri:0, instance:test.TEST_Homepage@38082d64]" test-instance-name="" name="setDown" is-config="true" duration-ms="803" started-at="2020-05-30T22:31:28Z" finished-at="2020-05-30T22:31:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:test.TEST_Homepage@38082d64]" test-instance-name="" name="setUp" is-config="true" duration-ms="9155" started-at="2020-05-30T22:11:23Z" finished-at="2020-05-30T22:11:32Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:test.TEST_Homepage@38082d64]" test-instance-name="" name="setUp" is-config="true" duration-ms="8577" started-at="2020-05-30T22:31:28Z" finished-at="2020-05-30T22:31:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="home_liveEvent()[pri:6, instance:test.TEST_Homepage@38082d64]" test-instance-name="" name="home_liveEvent" duration-ms="878" started-at="2020-05-30T22:11:32Z" finished-at="2020-05-30T22:11:33Z">
+        <test-method status="PASS" signature="home_liveEvent()[pri:6, instance:test.TEST_Homepage@38082d64]" test-instance-name="" name="home_liveEvent" duration-ms="1116" started-at="2020-05-30T22:31:37Z" finished-at="2020-05-30T22:31:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- home_liveEvent -->
-        <test-method status="PASS" signature="setDown()[pri:0, instance:test.TEST_Homepage@38082d64]" test-instance-name="" name="setDown" is-config="true" duration-ms="1032" started-at="2020-05-30T22:11:33Z" finished-at="2020-05-30T22:11:34Z">
+        <test-method status="PASS" signature="setDown()[pri:0, instance:test.TEST_Homepage@38082d64]" test-instance-name="" name="setDown" is-config="true" duration-ms="1001" started-at="2020-05-30T22:31:38Z" finished-at="2020-05-30T22:31:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:test.TEST_Homepage@38082d64]" test-instance-name="" name="setUp" is-config="true" duration-ms="12114" started-at="2020-05-30T22:11:34Z" finished-at="2020-05-30T22:11:46Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:test.TEST_Homepage@38082d64]" test-instance-name="" name="setUp" is-config="true" duration-ms="7452" started-at="2020-05-30T22:31:39Z" finished-at="2020-05-30T22:31:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="home_liveTv()[pri:6, instance:test.TEST_Homepage@38082d64]" test-instance-name="" name="home_liveTv" duration-ms="30815" started-at="2020-05-30T22:11:46Z" finished-at="2020-05-30T22:12:17Z">
+        <test-method status="FAIL" signature="home_liveTv()[pri:6, instance:test.TEST_Homepage@38082d64]" test-instance-name="" name="home_liveTv" duration-ms="31354" started-at="2020-05-30T22:31:46Z" finished-at="2020-05-30T22:32:18Z">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(),'Live TV')]"}
@@ -217,8 +217,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'MNCTVN05589', ip: '192.168.43.28', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\FRANSI~1.SET\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:58147}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 5dc4f4da03a1d27039a2f77ff5456624
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\FRANSI~1.SET\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:59863}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 0fc553518258e3d60c8adcd8b548a76f
 *** Element info: {Using=xpath, value=//a[contains(text(),'Live TV')]}]]>
             </message>
             <full-stacktrace>
@@ -228,8 +228,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'MNCTVN05589', ip: '192.168.43.28', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\FRANSI~1.SET\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:58147}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 5dc4f4da03a1d27039a2f77ff5456624
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\FRANSI~1.SET\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:59863}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 0fc553518258e3d60c8adcd8b548a76f
 *** Element info: {Using=xpath, value=//a[contains(text(),'Live TV')]}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -273,31 +273,31 @@ Session ID: 5dc4f4da03a1d27039a2f77ff5456624
           <reporter-output>
           </reporter-output>
         </test-method> <!-- home_liveTv -->
-        <test-method status="PASS" signature="setDown()[pri:0, instance:test.TEST_Homepage@38082d64]" test-instance-name="" name="setDown" is-config="true" duration-ms="1281" started-at="2020-05-30T22:12:17Z" finished-at="2020-05-30T22:12:18Z">
+        <test-method status="PASS" signature="setDown()[pri:0, instance:test.TEST_Homepage@38082d64]" test-instance-name="" name="setDown" is-config="true" duration-ms="1113" started-at="2020-05-30T22:32:18Z" finished-at="2020-05-30T22:32:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:test.TEST_Homepage@38082d64]" test-instance-name="" name="setUp" is-config="true" duration-ms="10309" started-at="2020-05-30T22:12:18Z" finished-at="2020-05-30T22:12:28Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:test.TEST_Homepage@38082d64]" test-instance-name="" name="setUp" is-config="true" duration-ms="7755" started-at="2020-05-30T22:32:19Z" finished-at="2020-05-30T22:32:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="home_news()[pri:6, instance:test.TEST_Homepage@38082d64]" test-instance-name="" name="home_news" duration-ms="3569" started-at="2020-05-30T22:12:28Z" finished-at="2020-05-30T22:12:32Z">
+        <test-method status="PASS" signature="home_news()[pri:6, instance:test.TEST_Homepage@38082d64]" test-instance-name="" name="home_news" duration-ms="3133" started-at="2020-05-30T22:32:27Z" finished-at="2020-05-30T22:32:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- home_news -->
-        <test-method status="PASS" signature="setDown()[pri:0, instance:test.TEST_Homepage@38082d64]" test-instance-name="" name="setDown" is-config="true" duration-ms="785" started-at="2020-05-30T22:12:32Z" finished-at="2020-05-30T22:12:33Z">
+        <test-method status="PASS" signature="setDown()[pri:0, instance:test.TEST_Homepage@38082d64]" test-instance-name="" name="setDown" is-config="true" duration-ms="741" started-at="2020-05-30T22:32:30Z" finished-at="2020-05-30T22:32:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:test.TEST_Homepage@38082d64]" test-instance-name="" name="setUp" is-config="true" duration-ms="8495" started-at="2020-05-30T22:12:33Z" finished-at="2020-05-30T22:12:41Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:test.TEST_Homepage@38082d64]" test-instance-name="" name="setUp" is-config="true" duration-ms="8244" started-at="2020-05-30T22:32:31Z" finished-at="2020-05-30T22:32:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="home_radio()[pri:6, instance:test.TEST_Homepage@38082d64]" test-instance-name="" name="home_radio" duration-ms="21601" started-at="2020-05-30T22:12:41Z" finished-at="2020-05-30T22:13:03Z">
+        <test-method status="PASS" signature="home_radio()[pri:6, instance:test.TEST_Homepage@38082d64]" test-instance-name="" name="home_radio" duration-ms="11867" started-at="2020-05-30T22:32:39Z" finished-at="2020-05-30T22:32:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- home_radio -->
-        <test-method status="PASS" signature="setDown()[pri:0, instance:test.TEST_Homepage@38082d64]" test-instance-name="" name="setDown" is-config="true" duration-ms="1564" started-at="2020-05-30T22:13:03Z" finished-at="2020-05-30T22:13:04Z">
+        <test-method status="PASS" signature="setDown()[pri:0, instance:test.TEST_Homepage@38082d64]" test-instance-name="" name="setDown" is-config="true" duration-ms="1124" started-at="2020-05-30T22:32:51Z" finished-at="2020-05-30T22:32:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setDown -->

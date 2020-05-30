@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TestSuite" time="150.834" tests="14" errors="0" skipped="0" failures="2">
+<testsuite name="TestSuite" time="135.873" tests="14" errors="0" skipped="0" failures="2">
   <properties>
     <property name="PROCESSOR_ARCHITECTURE" value="AMD64"/>
     <property name="file.encoding.pkg" value="sun.io"/>
@@ -32,32 +32,32 @@
     <property name="PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 142 Stepping 11, GenuineIntel"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="LOCALAPPDATA" value="C:\Users\fransiskus.setiawan\AppData\Local"/>
-    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/Selenium-pwa-test/13/display/redirect?page=changes"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/Selenium-pwa-test/14/display/redirect?page=changes"/>
     <property name="user.timezone" value="Asia/Bangkok"/>
     <property name="user.script" value=""/>
     <property name="path.separator" value=";"/>
     <property name="NUMBER_OF_PROCESSORS" value="8"/>
-    <property name="BUILD_TAG" value="jenkins-Selenium-pwa-test-13"/>
+    <property name="BUILD_TAG" value="jenkins-Selenium-pwa-test-14"/>
     <property name="file.encoding" value="UTF-8"/>
-    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main C:\Program Files\apache-maven-3.6.2 C:\Users\fransiskus.setiawan\.jenkins\war\WEB-INF\lib\remoting-3.33.jar C:\Users\fransiskus.setiawan\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar C:\Users\fransiskus.setiawan\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar 57454"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main C:\Program Files\apache-maven-3.6.2 C:\Users\fransiskus.setiawan\.jenkins\war\WEB-INF\lib\remoting-3.33.jar C:\Users\fransiskus.setiawan\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar C:\Users\fransiskus.setiawan\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar 59139"/>
     <property name="HUDSON_URL" value="http://localhost:8080/"/>
     <property name="JENKINS_SERVER_COOKIE" value="6e5e4db71d92e154"/>
     <property name="=D:" value="D:\Library\Jenkins"/>
     <property name="EXECUTOR_NUMBER" value="0"/>
     <property name="Path" value="C:\Program Files\Java\jdk1.8.0_221/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Git\cmd;C:\Program Files\apache-maven-3.6.2\bin;C:\Program Files\Java\jdk1.8.0_221\bin;C:\Program Files\nodejs\;C:\Users\fransiskus.setiawan\android-sdks\platform-tools;C:\Go\bin;C:\xampp\php;C:\ProgramData\ComposerSetup\bin;C:\Program Files (x86)\Yarn\bin\;C:\ProgramData\chocolatey\bin;C:\Program Files\k6\;C:\Users\fransiskus.setiawan\AppData\Local\Programs\Python\Python38\Scripts\;C:\Users\fransiskus.setiawan\AppData\Local\Programs\Python\Python38\;C:\Users\fransiskus.setiawan\AppData\Local\Microsoft\WindowsApps;C:\Users\fransiskus.setiawan\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\fransiskus.setiawan\AppData\Roaming\npm;C:\Program Files\JetBrains\IntelliJ IDEA 2019.2\bin;;C:\Users\fransiskus.setiawan\go\bin;C:\Users\fransiskus.setiawan\AppData\Roaming\Composer\vendor\bin;C:\Users\fransiskus.setiawan\AppData\Local\Yarn\bin"/>
-    <property name="GIT_COMMIT" value="e49274d76035e903f72da4cb887a804905b5c49c"/>
+    <property name="GIT_COMMIT" value="2c68d47281b7ad8f4b404fb8b22a140cfac026be"/>
     <property name="java.io.tmpdir" value="C:\Users\FRANSI~1.SET\AppData\Local\Temp\"/>
     <property name="APPDATA" value="C:\Users\fransiskus.setiawan\AppData\Roaming"/>
     <property name="user.language" value="en"/>
     <property name="line.separator" value="&#10;"/>
     <property name="GOPATH" value="C:\Users\fransiskus.setiawan\go"/>
-    <property name="BUILD_URL" value="http://localhost:8080/job/Selenium-pwa-test/13/"/>
+    <property name="BUILD_URL" value="http://localhost:8080/job/Selenium-pwa-test/14/"/>
     <property name="M2_HOME" value="C:\Program Files\apache-maven-3.6.2"/>
     <property name="java.vm.info" value="mixed mode"/>
     <property name="DriverData" value="C:\Windows\System32\Drivers\DriverData"/>
     <property name="sun.desktop" value="windows"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="BUILD_DISPLAY_NAME" value="#13"/>
+    <property name="BUILD_DISPLAY_NAME" value="#14"/>
     <property name="OS" value="Windows_NT"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
     <property name="HUDSON_SERVER_COOKIE" value="6e5e4db71d92e154"/>
@@ -72,7 +72,7 @@
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="PTSMINSTALLPATH" value="C:\Program Files\HP\HP ProtectTools Security Manager\Bin\"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
-    <property name="BUILD_NUMBER" value="13"/>
+    <property name="BUILD_NUMBER" value="14"/>
     <property name="BRS" value="C:\Program Files\HP\Sure Click\servers"/>
     <property name="maven3.interceptor" value="C:\Users\fransiskus.setiawan\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar"/>
     <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_221\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\apache-maven-3.6.2/bin;C:\Program Files\Java\jdk1.8.0_221/bin;C:\Program Files\Java\jdk1.8.0_221/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Git\cmd;C:\Program Files\apache-maven-3.6.2\bin;C:\Program Files\Java\jdk1.8.0_221\bin;C:\Program Files\nodejs\;C:\Users\fransiskus.setiawan\android-sdks\platform-tools;C:\Go\bin;C:\xampp\php;C:\ProgramData\ComposerSetup\bin;C:\Program Files (x86)\Yarn\bin\;C:\ProgramData\chocolatey\bin;C:\Program Files\k6\;C:\Users\fransiskus.setiawan\AppData\Local\Programs\Python\Python38\Scripts\;C:\Users\fransiskus.setiawan\AppData\Local\Programs\Python\Python38\;C:\Users\fransiskus.setiawan\AppData\Local\Microsoft\WindowsApps;C:\Users\fransiskus.setiawan\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\fransiskus.setiawan\AppData\Roaming\npm;C:\Program Files\JetBrains\IntelliJ IDEA 2019.2\bin;;C:\Users\fransiskus.setiawan\go\bin;C:\Users\fransiskus.setiawan\AppData\Roaming\Composer\vendor\bin;C:\Users\fransiskus.setiawan\AppData\Local\Yarn\bin;."/>
@@ -86,9 +86,9 @@
     <property name="GIT_PREVIOUS_COMMIT" value="e49274d76035e903f72da4cb887a804905b5c49c"/>
     <property name="OneDrive" value="C:\Users\fransiskus.setiawan\OneDrive"/>
     <property name="GIT_BRANCH" value="origin/master"/>
-    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/Selenium-pwa-test/13/display/redirect"/>
+    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/Selenium-pwa-test/14/display/redirect"/>
     <property name="JENKINS_HOME" value="C:\Users\fransiskus.setiawan\.jenkins"/>
-    <property name="BUILD_ID" value="13"/>
+    <property name="BUILD_ID" value="14"/>
     <property name="TEMP" value="C:\Users\FRANSI~1.SET\AppData\Local\Temp"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_221\jre\bin"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -156,17 +156,17 @@
     <property name="sun.arch.data.model" value="64"/>
     <property name="GIT_URL" value="https://github.com/dikako/selenium-pwa-test.git"/>
   </properties>
-  <testcase name="(test.TEST_Title)" classname="test.TEST_Title" time="1.801"/>
-  <testcase name="(test.TEST_Homepage)" classname="test.TEST_Homepage" time="1.18"/>
-  <testcase name="(test.TEST_Homepage)" classname="test.TEST_Homepage" time="31.184">
-    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#google_image_div&quot;}&#10;  (Session info: chrome=83.0.4103.61)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;MNCTVN05589&apos;, ip: &apos;192.168.43.28&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_221&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\FRANSI~1.SET\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:57564}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: c25f890ab1c93df4677f5450a57f3c44&#10;*** Element info: {Using=id, value=google_image_div}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#google_image_div"}
+  <testcase name="(test.TEST_Title)" classname="test.TEST_Title" time="1.252"/>
+  <testcase name="(test.TEST_Homepage)" classname="test.TEST_Homepage" time="1.749"/>
+  <testcase name="(test.TEST_Homepage)" classname="test.TEST_Homepage" time="31.479">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#google_image_div&quot;}&#10;  (Session info: chrome=83.0.4103.61)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;MNCTVN05589&apos;, ip: &apos;192.168.43.28&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_221&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\FRANSI~1.SET\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:59262}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: d89a50900188f9864807fc2bd5b132b2&#10;*** Element info: {Using=id, value=google_image_div}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#google_image_div"}
   (Session info: chrome=83.0.4103.61)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'MNCTVN05589', ip: '192.168.43.28', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\FRANSI~1.SET\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:57564}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: c25f890ab1c93df4677f5450a57f3c44
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\FRANSI~1.SET\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:59262}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: d89a50900188f9864807fc2bd5b132b2
 *** Element info: {Using=id, value=google_image_div}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -187,33 +187,33 @@ Session ID: c25f890ab1c93df4677f5450a57f3c44
 </failure>
     <system-out><![CDATA[Url: https://rc-webm.rctiplus.com/
 ]]></system-out>
-    <system-err><![CDATA[May 30, 2020 10:08:36 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+    <system-err><![CDATA[May 30, 2020 10:28:49 PM org.openqa.selenium.remote.DesiredCapabilities chrome
 INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
-Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 5060
+Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 44975
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-May 30, 2020 10:08:40 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+May 30, 2020 10:28:53 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="(test.TEST_Homepage)" classname="test.TEST_Homepage" time="10.306"/>
-  <testcase name="(test.TEST_Homepage)" classname="test.TEST_Homepage" time="30.861"/>
-  <testcase name="(test.TEST_Homepage)" classname="test.TEST_Homepage" time="1.225"/>
-  <testcase name="(test.TEST_Homepage)" classname="test.TEST_Homepage" time="10.761"/>
-  <testcase name="(test.TEST_Homepage)" classname="test.TEST_Homepage" time="3.641"/>
-  <testcase name="(test.TEST_Homepage)" classname="test.TEST_Homepage" time="1.842"/>
-  <testcase name="(test.TEST_Homepage)" classname="test.TEST_Homepage" time="1.17"/>
-  <testcase name="(test.TEST_Homepage)" classname="test.TEST_Homepage" time="0.878"/>
-  <testcase name="(test.TEST_Homepage)" classname="test.TEST_Homepage" time="30.815">
-    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[contains(text(),&apos;Live TV&apos;)]&quot;}&#10;  (Session info: chrome=83.0.4103.61)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;MNCTVN05589&apos;, ip: &apos;192.168.43.28&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_221&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\FRANSI~1.SET\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:58147}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 5dc4f4da03a1d27039a2f77ff5456624&#10;*** Element info: {Using=xpath, value=//a[contains(text(),&apos;Live TV&apos;)]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(),'Live TV')]"}
+  <testcase name="(test.TEST_Homepage)" classname="test.TEST_Homepage" time="2.687"/>
+  <testcase name="(test.TEST_Homepage)" classname="test.TEST_Homepage" time="31.035"/>
+  <testcase name="(test.TEST_Homepage)" classname="test.TEST_Homepage" time="2.311"/>
+  <testcase name="(test.TEST_Homepage)" classname="test.TEST_Homepage" time="4.042"/>
+  <testcase name="(test.TEST_Homepage)" classname="test.TEST_Homepage" time="10.311"/>
+  <testcase name="(test.TEST_Homepage)" classname="test.TEST_Homepage" time="1.952"/>
+  <testcase name="(test.TEST_Homepage)" classname="test.TEST_Homepage" time="1.582"/>
+  <testcase name="(test.TEST_Homepage)" classname="test.TEST_Homepage" time="1.116"/>
+  <testcase name="(test.TEST_Homepage)" classname="test.TEST_Homepage" time="31.355">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[contains(text(),&apos;Live TV&apos;)]&quot;}&#10;  (Session info: chrome=83.0.4103.61)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;MNCTVN05589&apos;, ip: &apos;192.168.43.28&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_221&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\FRANSI~1.SET\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:59863}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 0fc553518258e3d60c8adcd8b548a76f&#10;*** Element info: {Using=xpath, value=//a[contains(text(),&apos;Live TV&apos;)]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(),'Live TV')]"}
   (Session info: chrome=83.0.4103.61)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'MNCTVN05589', ip: '192.168.43.28', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\FRANSI~1.SET\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:58147}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 5dc4f4da03a1d27039a2f77ff5456624
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\FRANSI~1.SET\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:59863}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 0fc553518258e3d60c8adcd8b548a76f
 *** Element info: {Using=xpath, value=//a[contains(text(),'Live TV')]}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -234,16 +234,16 @@ Session ID: 5dc4f4da03a1d27039a2f77ff5456624
 </failure>
     <system-out><![CDATA[Url: https://rc-webm.rctiplus.com/
 ]]></system-out>
-    <system-err><![CDATA[May 30, 2020 10:11:40 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+    <system-err><![CDATA[May 30, 2020 10:31:40 PM org.openqa.selenium.remote.DesiredCapabilities chrome
 INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
-Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 36321
+Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 15611
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-May 30, 2020 10:11:43 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+May 30, 2020 10:31:44 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="(test.TEST_Homepage)" classname="test.TEST_Homepage" time="3.569"/>
-  <testcase name="(test.TEST_Homepage)" classname="test.TEST_Homepage" time="21.601"/>
+  <testcase name="(test.TEST_Homepage)" classname="test.TEST_Homepage" time="3.134"/>
+  <testcase name="(test.TEST_Homepage)" classname="test.TEST_Homepage" time="11.868"/>
 </testsuite>
