@@ -72,6 +72,12 @@
 			<artifactId>selenium-firefox-driver</artifactId>
 			<version>3.141.59</version>
 		</dependency>
+		
+		<dependency>
+			<groupId>com.twilio.sdk</groupId>
+			<artifactId>twilio</artifactId>
+			<version>7.42.0</version>
+		</dependency>
 	</dependencies>
 
 	<build>

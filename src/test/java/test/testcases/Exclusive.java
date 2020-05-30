@@ -16,6 +16,6 @@ public class Exclusive {
 	public void gotoexclusive() {
 		driver.findElement(activeClass).isDisplayed();
 		int countProgramTitle = driver.findElements(programTitle).size();
-		System.out.println("Jumlah Program Title: " + countProgramTitle);
+		System.out.println("Jumlah Program TEST_Title: " + countProgramTitle);
 	}
 }

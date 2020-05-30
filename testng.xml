@@ -1,9 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Suite">
-  <test name="Test">
-    <classes>
-      <class name="test.Mainclass"/>
-    </classes>
-  </test> <!-- Test -->
-</suite> <!-- Suite -->
+<suite name="PWA TEST" thread-count="1" verbose="1"
+	annotations="JDK" parallel="tests">
+	
+	<test name="Test Title">
+		<classes>
+			<class name="test.TEST_Title" />
+		</classes>
+	</test>
+
+	<test name="Test Homepage">
+		<classes>
+			<class name="test.TEST_Homepage" />
+		</classes>
+	</test>
+	
+	<!-- 
+	
+	<test name="Test Register">
+		<classes>
+			<class name="test.TEST_Register" />
+		</classes>
+	</test>
+
+	<test name="Test Login">
+		<classes>
+			<class name="test.TEST_Login" />
+		</classes>
+	</test> 
+	
+	 -->
+	
+</suite> 

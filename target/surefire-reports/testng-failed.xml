@@ -1,21 +1,80 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
-  <test name="Test">
+<suite thread-count="4" guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]" parallel="methods">
+  <test name="Test" group-by-instances="true">
     <classes>
-      <class name="test.Mainclass"/>
+      <class name="test.TEST_Title"/>
+      <class name="test.TEST_Homepage"/>
+      <class name="test.TEST_Register"/>
+      <class name="test.TEST_Login"/>
     </classes>
   </test> <!-- Test -->
-  <test name="Test(failed)">
+  <test name="Test(failed)" parallel="methods">
     <classes>
-      <class name="test.Mainclass">
+      <class name="test.TEST_Title">
         <methods>
-          <include name="setUp"/>
-          <include name="edit_nicknameTaken"/>
-          <include name="edit_nicknameNull"/>
-          <include name="setDown"/>
+          <include name="title"/>
         </methods>
-      </class> <!-- test.Mainclass -->
+      </class> <!-- test.TEST_Title -->
+      <class name="test.TEST_Register">
+        <methods>
+          <include name="register_invalidEmail"/>
+          <include name="register"/>
+        </methods>
+      </class> <!-- test.TEST_Register -->
+      <class name="test.TEST_Login">
+        <methods>
+          <include name="login_byAccountinvalidPassword"/>
+          <include name="login_byAccountinvalidPhone"/>
+          <include name="login_successByAccount"/>
+          <include name="login_byMylistnotRegisteredPhone"/>
+          <include name="setDown"/>
+          <include name="login_byContinueWatchinginvalidPassword"/>
+          <include name="login_byMylistnotRegisteredEmail"/>
+          <include name="login_byMylistinvalidEmail"/>
+          <include name="login_successByHistory"/>
+          <include name="login_byContinueWatchinginvalidPhone"/>
+          <include name="login_byAccountnotRegisteredPhone"/>
+          <include name="login_byHistorynotRegisteredPhone"/>
+          <include name="login_byContinueWatchingnotRegisteredPhone"/>
+          <include name="login_byAccountnotRegisteredEmail"/>
+          <include name="login_byHistoryinvalidPhone"/>
+          <include name="login_invalidPhone"/>
+          <include name="setUp"/>
+          <include name="login_byAccountinvalidEmail"/>
+          <include name="login_byContinueWatchingnotRegisteredEmail"/>
+          <include name="login_byHistoryinvalidPassword"/>
+          <include name="login_byHistorynotRegisteredEmail"/>
+          <include name="login_byContinueWatchinginvalidEmail"/>
+          <include name="login_successByMyList"/>
+          <include name="login_byMylistnvalidPassword"/>
+          <include name="login_notRegisteredPhone"/>
+          <include name="login_byMylistnvalidPhone"/>
+          <include name="login_successByContinueWatching"/>
+          <include name="login_notRegisteredEmail"/>
+          <include name="login_byHistoryinvalidEmail"/>
+          <include name="login_invalidEmail"/>
+          <include name="login_success"/>
+          <include name="login_invalidPassword"/>
+        </methods>
+      </class> <!-- test.TEST_Login -->
+      <class name="test.TEST_Homepage">
+        <methods>
+          <include name="home_countContentTitle"/>
+          <include name="home_countImg"/>
+          <include name="home_home"/>
+          <include name="home_library"/>
+          <include name="home_exclusive"/>
+          <include name="home_news"/>
+          <include name="home_liveEvent"/>
+          <include name="home_radio"/>
+          <include name="home_account"/>
+          <include name="home_countMenuBawah"/>
+          <include name="home_countMenuTengah"/>
+          <include name="home_liveTv"/>
+          <include name="home_adsBanner"/>
+        </methods>
+      </class> <!-- test.TEST_Homepage -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

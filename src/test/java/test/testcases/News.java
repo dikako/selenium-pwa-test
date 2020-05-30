@@ -51,7 +51,7 @@ public class News {
 	public void artikelClick() {
 		driver.findElement(articelTitle).click();
 		String newsTitleClick = driver.findElement(articelTitle).getText();
-		System.out.println("Title News: " + newsTitleClick);
+		System.out.println("TEST_Title News: " + newsTitleClick);
 		
 		String validateOpenNewsTitle = driver.findElement(By.xpath("//b[contains(text(),'" + newsTitleClick +"')]")).getText();
 		Assert.assertEquals(newsTitleClick.toLowerCase(), validateOpenNewsTitle.toLowerCase(), "Assert Error");

@@ -14,6 +14,6 @@ public class Title {
 		String expected = "RCTI+ - Live Streaming Program 4 TV Terpopuler";
 		
 		Assert.assertEquals(actual, expected);
-		System.out.println("Title : " + actual + " = " + expected);
+		System.out.println("TEST_Title : " + actual + " = " + expected);
 	}
 }

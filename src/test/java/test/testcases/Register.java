@@ -1,125 +1,108 @@
 package test.testcases;
 
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Map;
 import java.util.Random;
+import java.util.Scanner;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.support.ui.Sleeper;
 import org.testng.Assert;
+
+import object.Registers;
 
 public class Register {
 	WebDriver driver;
-	
-	By emails = By.xpath("//input[@id='email']");
-	By passwords = By.xpath("//input[@id='password']");
-	By repasswords = By.xpath("//input[@id='password2']");
-	By phones = By.xpath("//input[@id='phone_number']");
-	By emailsMenu = By.xpath("//a[contains(text(),'Email')]");
-	By buttons = By.xpath("//button[contains(text(),'NEXT')]");
-	By wordings1 = By.xpath("//div[contains(text(),'please try again, email has been taken')]");
+
+	By genders = By.id("gender");
 	By wordings2 = By.xpath("//div[contains(text(),'Password must match')]");
 	By wordings3 = By.xpath("//div[contains(text(),'Please Try Again Phone Number Is Incorrect')]");
 	By wordings4 = By.xpath("//div[contains(text(),'please try again, phone has been taken')]");
 	By gotoPhone = By.xpath("//a[contains(text(),'Phone Number')]");
 	
-	String email = "paijo@mailinator.com";
+	String email = "teamqc@mailinator.com";
+	Random random = new Random();
+	int randoms = random.nextInt(1000);
+	int index = 5;
+	int indexInvalidEmail = 22;
+	String emailInvalid = "teamqc.com";
+	String wordingInvalidEmail = "//div[contains(text(),'')]";
 	String password = "dikakoko";
-	String passwordBeda = "sdfhgadfg";
-	String phoneSalah = "1234234242";
-	String phoneTaken = "82278843303";
 	
-	String mailinator = "https://www.mailinator.com/v3/index.jsp";
-	
-	Random randomGenerator = new Random();
-	int randomInt = randomGenerator.nextInt(1000);
-			
 	public Register(WebDriver driver) {
 		this.driver = driver;
 	}
 	
-	public void clearForm() {
-		driver.findElement(emails).click();
-		driver.findElement(emails).clear();
-		driver.findElement(passwords).click();
-		driver.findElement(passwords).clear();
-		driver.findElement(repasswords).click();
-		driver.findElement(repasswords).clear();
+	public void register() {
+		register_first();
+		register_second();
 	}
 	
-	public void clearFormPhone() {
-		driver.findElement(phones).click();
-		driver.findElement(phones).clear();
-		driver.findElement(passwords).click();
-		driver.findElement(passwords).clear();
-		driver.findElement(repasswords).click();
-		driver.findElement(repasswords).clear();
+	public void invalidEmail() {
+		String text = "please try again, email has been taken";
+		String[] arr = text.split(" ");
+		ArrayList<String> addArray = new ArrayList<String>();
+		//Map<Integer, String> lengthMap = new HashMap<>();
+		for (String i:arr) {
+			String word = Character.toString(i.charAt(0)).toUpperCase();
+			String subString = i.substring(1);
+			System.out.println(word+subString);
+			addArray.add(word+subString);
+			String join = addArray.toString();
+			String words = join.replace("[", "").replace("]", "").replace(", ", " ");
+			System.out.println(words);
+		}
+	    
+		By wording = By.xpath(wordingInvalidEmail(wordingInvalidEmail, text, indexInvalidEmail));
+		System.out.println(wording);
+		Registers register = PageFactory.initElements(driver, Registers.class);
+		register.inputEmail(randomEmailInvalid(emailInvalid, randoms, index));
+		register.inputPassword(password);
+		register.inputRePassword(password);
+		register.button();
+		String actual = driver.findElement(wording).getText();
+		Assert.assertEquals(actual, text);
 	}
 	
-	public void alert1() throws InterruptedException {
-		clearForm();
-		driver.findElement(emails).click();
-		driver.findElement(emails).sendKeys(email);
-		driver.findElement(passwords).click();
-		driver.findElement(passwords).sendKeys(password);
-		driver.findElement(repasswords).click();
-		driver.findElement(repasswords).sendKeys(password);
-		Thread.sleep(5000);
-		driver.findElement(buttons).click();
-		String actual = driver.findElement(wordings1).getText();
-		String expected = "please try again, email has been taken";
-		Assert.assertEquals(actual, expected);
+	public void register_first() {
+		Registers register = PageFactory.initElements(driver, Registers.class);
+		register.inputEmail(randomEmail(email, randoms, index));
+		register.inputPassword(password);
+		register.inputRePassword(password);
+		register.button();
 	}
 	
-	public void alert2() throws InterruptedException {
-		clearForm();
-		driver.findElement(emails).click();
-		driver.findElement(emails).sendKeys("qc" + randomInt + "@mailinator.com");
-		driver.findElement(passwords).click();
-		driver.findElement(passwords).sendKeys(password);
-		driver.findElement(repasswords).click();
-		driver.findElement(repasswords).sendKeys(passwordBeda);
-		Thread.sleep(5000);
-		driver.findElement(buttons).click();
-		String actual = driver.findElement(wordings2).getText();
-		String expected = "Password must match";
-		Assert.assertEquals(actual, expected);
+	public void register_second() {
+		Registers register = PageFactory.initElements(driver, Registers.class);
+		register.inputGender();
+		//register.button();
 	}
 	
-	public void alert3() throws InterruptedException {
-		gotoPhone();
-		clearFormPhone();
-		driver.findElement(phones).click();
-		driver.findElement(phones).sendKeys(phoneSalah);
-		driver.findElement(passwords).click();
-		driver.findElement(passwords).sendKeys(password);
-		driver.findElement(repasswords).click();
-		driver.findElement(repasswords).sendKeys(passwordBeda);
-		Thread.sleep(5000);
-		driver.findElement(buttons).click();
-		String actual = driver.findElement(wordings3).getText();
-		String expected = "Please Try Again Phone Number Is Incorrect";
-		Assert.assertEquals(actual, expected);
+	public static String randomEmail(String email, int randoms, int index ) {
+		String newEmail = email.substring(0, index + 1) + randoms + email.substring(index + 1);
+		return newEmail;
 	}
 	
-	public void alert4() throws InterruptedException {
-		gotoPhone();
-		clearFormPhone();
-		driver.findElement(phones).click();
-		driver.findElement(phones).sendKeys(phoneTaken);
-		driver.findElement(passwords).click();
-		driver.findElement(passwords).sendKeys(password);
-		driver.findElement(repasswords).click();
-		driver.findElement(repasswords).sendKeys(passwordBeda);
-		Thread.sleep(5000);
-		driver.findElement(buttons).click();
-		String actual = driver.findElement(wordings4).getText();
-		String expected = "please try again, phone has been taken";
-		Assert.assertEquals(actual, expected);
+	public static String randomEmailInvalid(String emailInvalid, int randoms, int index) {
+		String newEmailInvalid = emailInvalid.substring(0, index + 1) + randoms + emailInvalid.substring(index + 1);
+		return newEmailInvalid;
 	}
 	
-	public void gotoPhone() throws InterruptedException {
-		driver.findElement(gotoPhone).click();
+	public static String wordingInvalidEmail(String wordingInvalidEmail, String text, int indexInvalidEmail) {
+		String newWording = wordingInvalidEmail.substring(0, indexInvalidEmail + 1) + text + wordingInvalidEmail.substring(indexInvalidEmail + 1);
+		return newWording;
 	}
 	
+	public void countWords() {
+		Scanner sc = new Scanner(System.in);
+		while(sc.hasNext()) {
+			System.err.println();
+		}
+	}
 	
-
 }
